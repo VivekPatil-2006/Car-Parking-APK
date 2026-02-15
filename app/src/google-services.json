@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "984236627905",
+    "project_id": "car-parking-37db7",
+    "storage_bucket": "car-parking-37db7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984236627905:android:729e16bd20dfd48381c140",
+        "android_client_info": {
+          "package_name": "com.example.admincarparking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBpPNFIr505QT9K5ue6c_1XPj5sW6HOdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984236627905:android:9bf2e5a48787107c81c140",
+        "android_client_info": {
+          "package_name": "com.sveri.carparking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBpPNFIr505QT9K5ue6c_1XPj5sW6HOdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

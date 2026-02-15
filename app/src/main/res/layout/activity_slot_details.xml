@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/colorSurface">
+
+    <!-- User Details Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvUserEmail"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvUserPhone"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvCarNo"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car No: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvTimeFrom"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvTimeTo"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvAmount"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount: Not Assigned"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Action Buttons -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCancelBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Booking"
+        android:textColor="@android:color/white"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <!--
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAcceptBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Booking"
+        android:textColor="@android:color/white"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/green"/>
+        -->
+</LinearLayout>
